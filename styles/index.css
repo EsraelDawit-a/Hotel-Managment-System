@@ -1,0 +1,6 @@
+@import url('./main.css');
+
+
+p{
+    background-color: var(--button-warning);
+}
