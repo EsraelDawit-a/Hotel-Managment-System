@@ -17,8 +17,8 @@
     --button-warning:#4c3b39;
 
     --font-xl:28px;
-    --font-lg:16px;
-    --font-md:20px;
+    --font-md:16px;
+    --font-lg:20px;
     --font-sm:14px;
     --font-xs:12px;
 
@@ -28,6 +28,14 @@
  
 body{
     font-family: 'Barlow', sans-serif !important; 
-    background-color: var(--color-secondary);
+ 
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--dark-background);
+}
+body::-webkit-scrollbar{
+  width: 0;
+  height: 0;
 }
   

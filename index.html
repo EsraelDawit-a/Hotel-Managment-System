@@ -18,11 +18,600 @@
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="./styles/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-  <title>eDex</title>
+  <title>Hotel Manegment System</title>
 </head>
 
 <body>
-    <p>hello</p>
+    <div class="wrapper">
+        <nav class="left">
+            <div><a href="#" class="main"> <img src="./assets/icons/logo.png" alt="home"> </a></div>
+            <div class="active">
+        
+                <a href="#" > <img src="./assets/icons/Home.png" alt="home"> </a></div>
+            <div><a href="#"> <img src="./assets/icons/Discount.png" alt="home"> </a></div>
+            <div><a href="#"> <img src="./assets/icons/Dashboard.png" alt="home"> </a></div>
+            <div><a href="#"> <img src="./assets/icons/Message.png" alt="home"> </a></div>
+            <div><a href="#"> <img src="./assets/icons/Notification.png" alt="home"> </a></div>
+            <div><a href="#"> <img src="./assets/icons/Setting.png" alt="home"> </a></div>
+            <div><a href="#"> <img src="./assets/icons/Log Out.png" alt="home"> </a></div>
+        </nav>
+        <div class="right">
+            <div class="right-top">
+                <div class="header">
+                    <h3>Jaegar Resto</h3>
+                    <p>Tusday,2 Feb 2021</p>
+                </div>
+                
+                <div class="input">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="text" placeholder="Search for food, coffe, etc..">
+                </div>
+            </div>
+
+            <div class="tabs">
+              <div class="tab_wrapper">
+                <div class="tab">Hot Dishes</div>
+                <div class="tab">Cold Dishes</div>
+                <div class="tab">Soup</div>
+                <div class="tab">Grill</div>
+              </div>
+              <div class="divider"></div>
+            </div>
+
+            <div class="dish-title">
+              <div class="small_header">Choose Dishes</div>
+              <div class="select">
+                <select name="choose" id="2">
+                  <option value="Dine in">Dine In</option>
+                </select>
+              </div>
+            </div>
+
+
+            <div class="card_wrapper">
+              <!-- card -->
+              <div class="card">
+                <div class="image">
+                  <img src="./assets/images/Image 1.png" alt="">
+                </div>
+                <div class="bootom_card">
+                  <p class="top_title">Spicy seasoned seafood noodles</p>
+                  <p class="price">$2.29</p>
+                  <p class="tags">20 Bowls available</p>
+                </div>
+              </div>
+              <!-- card end -->
+              <!-- card -->
+              <div class="card">
+                <div class="image">
+                  <img src="./assets/images/Image 1.png" alt="">
+                </div>
+                <div class="bootom_card">
+                  <p class="top_title">Spicy seasoned seafood noodles</p>
+                  <p class="price">$2.29</p>
+                  <p class="tags">20 Bowls available</p>
+                </div>
+              </div>
+              <!-- card end -->
+              <!-- card -->
+              <div class="card">
+                <div class="image">
+                  <img src="./assets/images/Image 1.png" alt="">
+                </div>
+                <div class="bootom_card">
+                  <p class="top_title">Spicy seasoned seafood noodles</p>
+                  <p class="price">$2.29</p>
+                  <p class="tags">20 Bowls available</p>
+                </div>
+              </div>
+              <!-- card end -->
+              <!-- card -->
+              <div class="card">
+                <div class="image">
+                  <img src="./assets/images/Image 1.png" alt="">
+                </div>
+                <div class="bootom_card">
+                  <p class="top_title">Spicy seasoned seafood noodles</p>
+                  <p class="price">$2.29</p>
+                  <p class="tags">20 Bowls available</p>
+                </div>
+              </div>
+              <!-- card end -->
+              <!-- card -->
+              <div class="card">
+                <div class="image">
+                  <img src="./assets/images/Image 1.png" alt="">
+                </div>
+                <div class="bootom_card">
+                  <p class="top_title">Spicy seasoned seafood noodles</p>
+                  <p class="price">$2.29</p>
+                  <p class="tags">20 Bowls available</p>
+                </div>
+              </div>
+              <!-- card end -->
+            </div>
+        </div>
+
+
+        <!-- orders -->
+       
+        <div class="orders_wrapper">
+          <div class="orders_container">
+          <div class="order_head">
+            <div class="orders_header">
+              <h3>Orders #34562</h3>
+              <div class="orders_buttons">
+                <div class="active_btn">Dine In</div>
+                <div class="">To Go</div>
+                <div class="">Delivery</div>
+              </div>
+            </div>
+  
+            <div class="orders_title">
+              <div class="title_left"><h4>Item</h4></div>
+              <div class="title_right">
+                <h4>Qty</h4>
+                <h4>Price</h4>
+              </div>
+            </div>
+            <div class="divider title_divider"></div>
+          </div>
+
+    <div class="orders_card_wrapper">
+      <!-- orders_detail_card -->
+      <div class="orders_card">
+        <div class="order_top">
+          <div class="title">
+            <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+            <div class="name">
+              <h5>Spicy seaseoned sea...</h5>
+              <p>$2.29</p>
+            </div>
+          </div>
+          <div class="orders_end">
+            <div class="count">2</div>
+          <div class="order_price">
+            $4,58
+          </div>
+          </div>
+        </div>
+        <div class="order_bottom">
+          <div class="input order_input">
+            <input type="text" placeholder="Please,just a little bit spicy only.">
+          </div>
+          <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <!-- orders_detail_card end -->
+      <!-- orders_detail_card -->
+      <div class="orders_card">
+        <div class="order_top">
+          <div class="title">
+            <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+            <div class="name">
+              <h5>Spicy seaseoned sea...</h5>
+              <p>$2.29</p>
+            </div>
+          </div>
+          <div class="orders_end">
+            <div class="count">2</div>
+          <div class="order_price">
+            $4,58
+          </div>
+          </div>
+        </div>
+        <div class="order_bottom">
+          <div class="input order_input">
+            <input type="text" placeholder="Please,just a little bit spicy only.">
+          </div>
+          <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i></div>
+        </div>
+      </div>
+      <!-- orders_detail_card end -->
+      <!-- orders_detail_card -->
+      <div class="orders_card">
+        <div class="order_top">
+          <div class="title">
+            <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+            <div class="name">
+              <h5>Spicy seaseoned sea...</h5>
+              <p>$2.29</p>
+            </div>
+          </div>
+          <div class="orders_end">
+            <div class="count">2</div>
+          <div class="order_price">
+            $4,58
+          </div>
+          </div>
+        </div>
+        <div class="order_bottom">
+          <div class="input order_input">
+            <input type="text" placeholder="Please,just a little bit spicy only.">
+          </div>
+          <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i></div>
+        </div>
+      </div>
+      <!-- orders_detail_card end -->
+      <!-- orders_detail_card -->
+      <div class="orders_card">
+        <div class="order_top">
+          <div class="title">
+            <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+            <div class="name">
+              <h5>Spicy seaseoned sea...</h5>
+              <p>$2.29</p>
+            </div>
+          </div>
+          <div class="orders_end">
+            <div class="count">2</div>
+          <div class="order_price">
+            $4,58
+          </div>
+          </div>
+        </div>
+        <div class="order_bottom">
+          <div class="input order_input">
+            <input type="text" placeholder="Please,just a little bit spicy only.">
+          </div>
+          <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i></div>
+        </div>
+      </div>
+      <!-- orders_detail_card end -->
+      <!-- orders_detail_card -->
+      <div class="orders_card">
+        <div class="order_top">
+          <div class="title">
+            <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+            <div class="name">
+              <h5>Spicy seaseoned sea...</h5>
+              <p>$2.29</p>
+            </div>
+          </div>
+          <div class="orders_end">
+            <div class="count">2</div>
+          <div class="order_price">
+            $4,58
+          </div>
+          </div>
+        </div>
+        <div class="order_bottom">
+          <div class="input order_input">
+            <input type="text" placeholder="Please,just a little bit spicy only.">
+          </div>
+          <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i></div>
+        </div>
+      </div>
+      <!-- orders_detail_card end -->
+      <!-- orders_detail_card -->
+      <div class="orders_card">
+        <div class="order_top">
+          <div class="title">
+            <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+            <div class="name">
+              <h5>Spicy seaseoned sea...</h5>
+              <p>$2.29</p>
+            </div>
+          </div>
+          <div class="orders_end">
+            <div class="count">2</div>
+          <div class="order_price">
+            $4,58
+          </div>
+          </div>
+        </div>
+        <div class="order_bottom">
+          <div class="input order_input">
+            <input type="text" placeholder="Please,just a little bit spicy only.">
+          </div>
+          <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i></div>
+        </div>
+      </div>
+      <!-- orders_detail_card end -->
+    </div>
+
+    <div class="orders_bottom">
+      <div class="bottom_top">
+        <div class="cost">
+          <p>Discount</p> <h4>$0</h4>
+        </div>
+        <div class="cost">
+          <p>Sub total</p> <h4>$21,03</h4>
+        </div>
+      </div>
+
+      <div class="payment" onclick="payment()">
+        Countinue to Payment
+      </div>
+    </div>
+
+        </div>
+      </div>
+
+      <div class="overlay" id="overlay">
+      
+      <!-- Confirmation -->
+       
+      <div class="orders_wrapper confirm_wrapper">
+        <div class="orders_container">
+        <div class="order_head">
+          <div class="confirm_header">
+            <div class="arrow-back"  onclick="removeOverlay()">
+              <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            </div>
+            <div class="confirm_bottom">
+              <div class="confirm_left">
+                <h3>Confirmation</h3>
+                <p>Orders #34562</p>
+              </div>
+              <div class="confirm_right">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="divider title_divider"></div>
+        </div>
+
+  <div class="orders_card_wrapper confirm_card_wrapper">
+    <!-- orders_detail_card -->
+    <div class="orders_card">
+      <div class="order_top">
+        <div class="title">
+          <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+          <div class="name">
+            <h5>Spicy seaseoned sea...</h5>
+            <p>$2.29</p>
+          </div>
+        </div>
+        <div class="orders_end">
+          <div class="count">2</div>
+        <div class="order_price">
+          $4,58
+        </div>
+        </div>
+      </div>
+      <div class="order_bottom">
+        <div class="input order_input">
+          <input type="text" placeholder="Please,just a little bit spicy only.">
+        </div>
+        <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i></div>
+      </div>
+    </div>
+    <!-- orders_detail_card end -->
+    <!-- orders_detail_card -->
+    <div class="orders_card">
+      <div class="order_top">
+        <div class="title">
+          <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+          <div class="name">
+            <h5>Spicy seaseoned sea...</h5>
+            <p>$2.29</p>
+          </div>
+        </div>
+        <div class="orders_end">
+          <div class="count">2</div>
+        <div class="order_price">
+          $4,58
+        </div>
+        </div>
+      </div>
+      <div class="order_bottom">
+        <div class="input order_input">
+          <input type="text" placeholder="Please,just a little bit spicy only.">
+        </div>
+        <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i></div>
+      </div>
+    </div>
+    <!-- orders_detail_card end -->
+    <!-- orders_detail_card -->
+    <div class="orders_card">
+      <div class="order_top">
+        <div class="title">
+          <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+          <div class="name">
+            <h5>Spicy seaseoned sea...</h5>
+            <p>$2.29</p>
+          </div>
+        </div>
+        <div class="orders_end">
+          <div class="count">2</div>
+        <div class="order_price">
+          $4,58
+        </div>
+        </div>
+      </div>
+      <div class="order_bottom">
+        <div class="input order_input">
+          <input type="text" placeholder="Please,just a little bit spicy only.">
+        </div>
+        <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i></div>
+      </div>
+    </div>
+    <!-- orders_detail_card end -->
+    <!-- orders_detail_card -->
+    <div class="orders_card">
+      <div class="order_top">
+        <div class="title">
+          <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+          <div class="name">
+            <h5>Spicy seaseoned sea...</h5>
+            <p>$2.29</p>
+          </div>
+        </div>
+        <div class="orders_end">
+          <div class="count">2</div>
+        <div class="order_price">
+          $4,58
+        </div>
+        </div>
+      </div>
+      <div class="order_bottom">
+        <div class="input order_input">
+          <input type="text" placeholder="Please,just a little bit spicy only.">
+        </div>
+        <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i></div>
+      </div>
+    </div>
+    <!-- orders_detail_card end -->
+    <!-- orders_detail_card -->
+    <div class="orders_card">
+      <div class="order_top">
+        <div class="title">
+          <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+          <div class="name">
+            <h5>Spicy seaseoned sea...</h5>
+            <p>$2.29</p>
+          </div>
+        </div>
+        <div class="orders_end">
+          <div class="count">2</div>
+        <div class="order_price">
+          $4,58
+        </div>
+        </div>
+      </div>
+      <div class="order_bottom">
+        <div class="input order_input">
+          <input type="text" placeholder="Please,just a little bit spicy only.">
+        </div>
+        <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i></div>
+      </div>
+    </div>
+    <!-- orders_detail_card end -->
+    <!-- orders_detail_card -->
+    <div class="orders_card">
+      <div class="order_top">
+        <div class="title">
+          <div class="img"><img src="./assets/images/Image 1.png" alt=""></div>
+          <div class="name">
+            <h5>Spicy seaseoned sea...</h5>
+            <p>$2.29</p>
+          </div>
+        </div>
+        <div class="orders_end">
+          <div class="count">2</div>
+        <div class="order_price">
+          $4,58
+        </div>
+        </div>
+      </div>
+      <div class="order_bottom">
+        <div class="input order_input">
+          <input type="text" placeholder="Please,just a little bit spicy only.">
+        </div>
+        <div class="delete"><i  class="fa fa-trash" aria-hidden="true"></i></div>
+      </div>
+    </div>
+    <!-- orders_detail_card end -->
+  </div>
+
+  <div class="orders_bottom">
+    <div class="bottom_top">
+      <div class="cost">
+        <p>Discount</p> <h4>$0</h4>
+      </div>
+      <div class="cost">
+        <p>Sub total</p> <h4>$21,03</h4>
+      </div>
+    </div>
+
+    <div class="placeholder" onclick="payment()">
+     
+    </div>
+  </div>
+
+      </div>
+    </div>
+
+      <!-- Confirmation end -->
+      
+      <div class="side_payment">
+        <div class="order_head confirm_head">
+          <div class="confirm_header">
+            
+            <div class="confirm_bottom">
+              <div class="confirm_left">
+                <h3>Payment</h3>
+                <p>3 Payment metod available</p>
+              </div>
+              
+            </div>
+          </div>
+
+          
+          <div class="divider title_divider"></div>
+          
+          <div class="payment_info">
+            <div class="payment_method">
+              <h4>Payment Method</h4>
+              <div class="method">
+                <img src="./assets/icons/Wallet.png" alt="">
+                <p>Cash payment</p>
+              </div>
+            </div>
+
+            <div class="info">
+              <div class="info_input">
+                <h5>Cardholder Name</h5>
+                <div class="input payment_input">
+                  <input type="text" placeholder="Levi Ackeman">
+                </div>
+              </div>
+              <div class="info_input">
+                <h5>Card Number</h5>
+                <div class="input payment_input">
+                  <input type="text" placeholder="245 3545 656 3427">
+                </div>
+              </div>
+
+              <div class="flex_inputs">
+                <div class="info_input">
+                  <h5>Expiration Date</h5>
+                  <div class="input payment_input">
+                    <input type="date" placeholder="02/2/2022">
+                  </div>
+                </div>
+                <div class="info_input">
+                  <h5>CVV</h5>
+                  <div class="input payment_input">
+                    <input type="text" placeholder="377">
+                  </div>
+                </div>
+              </div>
+
+              <div class="divider pay_divider"></div>
+
+              <div class="flex_inputs">
+                <div class="info_input">
+                  <h5>Order Type</h5>
+                  <div class="input payment_input select">
+                    <select  name="type" id="">
+                      <option value="Dine in">Dine In</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="info_input">
+                  <h5>Table no.</h5>
+                  <div class="input payment_input">
+                    <input type="text" placeholder="140">
+                  </div>
+                </div>
+              </div>
+
+              <div class="pay_buttons">
+                <div class="chancel">Chancel</div>
+                <div class="confirm">Confirm Payment</div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      </div>
+    </div>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
@@ -35,7 +624,16 @@
   <!-- Slick Slider Js -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    let overlay = document.getElementById("overlay")
+    function payment(){
+      overlay.style.display ="block"
+    }
+    function removeOverlay(){
+      overlay.style.display = "none"
 
+    }
+  </script>
 </body>
 
 </html>
