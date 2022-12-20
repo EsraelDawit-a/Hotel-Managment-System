@@ -176,7 +176,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    justify-content: space-between;
+    gap: 1rem;
+    
 }
 .card{
     background-color: var(--secondary-background);
@@ -192,6 +193,7 @@
     border-radius: 15px;
     margin-bottom: 70px;
     color: var(--text-white);
+    margin-left: 10px;
 
     cursor: pointer;
 }
