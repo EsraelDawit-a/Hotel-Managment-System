@@ -325,6 +325,12 @@
     gap: 2rem;
     padding-top: 180px;
 }
+.orders_card:hover{
+    cursor: pointer;
+    background-color: var(--dark-background);
+    transition: 0.3s ease-out;
+
+}
 .order_top .img{
     border-radius: 50%;
     /* border: 2px solid #fff; */
