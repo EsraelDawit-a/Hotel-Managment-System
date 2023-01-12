@@ -31,9 +31,12 @@ body{
     background-color: #fff;
     margin-top: 20px;
     
-    width: 90%;
-    border-top-left-radius: 25px;
+    width: 100%;
+    border-radius: 25px;
     overflow: hidden;
+
+    display: flex;
+    justify-content: center;
 
  
 
@@ -48,6 +51,9 @@ body{
     margin-left: 20px;
     
 
+}
+.form{
+    width: 80%;
 }
 .field p{
     color: #555555;
